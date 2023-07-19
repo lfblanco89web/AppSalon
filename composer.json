@@ -1,0 +1,25 @@
+{
+    "name": "lfbla/03app-salon",
+    "description": "Proyecto MVC con PHP y SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabian",
+            "email": "lfblanco89@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
